@@ -1,0 +1,144 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/roboto.thin.ttf) format("truetype");
+
+}
+.page{
+  padding:50px;
+  height: auto;
+}
+.image{
+  width:320px;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+/*NAVBAR*/
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none; }
+#nav li {
+	float: center; }
+
+.nav{
+  top: 0%;
+  z-index: 6;
+  font-size: 20px;
+  font-family: roboto;
+  color: #FFFFFF;
+}
+.nav a {
+  height: 80px;
+  line-height: 80px;
+  width: 108px;
+  display: block;
+  position: fixed;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*CONSTANTS*/
+.title {
+  font-size: 100px;
+font-family: roboto;
+text-align: left;
+margin-top: 200px;
+}
+
+.image{
+  width:320px;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.subtitles {
+
+
+}
+
+.big-text {
+
+}
+
+.medium-text {
+
+}
+
+.small-text {
+
+}
+
+
+/*HOME PAGE*/
+#background {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 50px 0px;
+  height: 750px;
+  width: auto;
+}
+
+/*ABOUT PAGE*/
+#about {
+  background-color: #ffffff;
+}
+.about-text p {
+  font-size: 18px;
+  font-family: roboto;
+}
+.headings {
+text-align: center;
+font-size: 50px;
+font-family:roboto;
+padding-bottom: 40px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+
+}
+.value-images {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+
+/*INVESTMENT FOCUS PAGE*/
+#investment-focus {
+  background-color: #ffffff;
+}
+.investment-focus-text p {
+  font-size: 18px;
+  font-family: roboto;
+}
+
+/* CONTACT PAGE */
+/*CONTACT*/
+#contact{
+  background-color: #26262A;
+}
+
+
+#email:hover{
+  color: #37A4BF;
+}
+.glyphicon.glyphicon-envelope{
+    color:#FFFFFF;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+    left: 45%;
+}

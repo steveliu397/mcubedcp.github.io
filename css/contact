@@ -1,0 +1,125 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+
+}
+
+
+
+@font-face {
+    font-family: "roboto";
+    src: url("Roboto-Regular.ttf" ) format("truetype");
+
+}
+
+
+@font-face {
+    font-family: "roboto-black";
+    src: url("Roboto-Black.ttf") format("truetype");
+
+}
+
+@font-face {
+    font-family: "roboto-bold";
+    src: url("Roboto-Bold.ttf") format("truetype");
+
+}
+
+
+
+.main-slide {
+  height: 100%;
+   background-image: url("../images/about1.jpg");
+    background-repeat:no-repeat;
+
+    background-size:cover;
+
+}
+
+
+.dimmed {
+  position: relative;
+}
+
+.dimmed:before {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .2);
+}
+
+
+
+
+
+#contact:before {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+#contact {
+
+height: 100%;
+background-image: url("../images/white.jpg");
+}
+
+
+
+
+
+
+h2 {
+
+    font-family: roboto-bold;
+    font-size: 30px;
+    color: white;
+    padding-top: 9em;
+
+
+}
+
+.subtitle {
+    font-size: 40px;
+    font-family: roboto-black;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    color: #36648B;
+
+
+}
+
+.h3 {
+    font-size: 20px;
+    font-family: roboto-bold;
+
+
+}
+
+.h3 b {
+    font-size: 20px;
+    font-family: roboto;
+
+}
+
+
+.info {
+font-size: 20px;
+    font-family: roboto-bold;
+
+
+
+}
