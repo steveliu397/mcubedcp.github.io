@@ -374,3 +374,6 @@ font-size: 16px;
     }
 
 }
+.navbar-collapse.in {
+  display: flex !important;
+}
