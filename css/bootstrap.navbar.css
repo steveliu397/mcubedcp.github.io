@@ -7,8 +7,14 @@ body {
   margin-bottom: 20px;
 }
 
+.navbar-collapse.in {
+  display: flex !important;
+}
 
-
-
-
-
+/* button.navbar-toggler.collapsed.in {
+  position: relative !important;
+  left: 451px !important;
+} */
+.navbar {
+  justify-content: right !important;
+}
