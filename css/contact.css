@@ -1,27 +1,86 @@
 html, body {
   height: 100%;
   margin: 0px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 
 }
 
+@media only screen and (max-width: 991px) {
+  #right-box {
+    position: relative;
+    top: 50px !important;
+    /* height: 100% */
+  }
+}
 
+@media only screen and (max-width: 786px) {
+  #contactform {
+    width: 965px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #contactform {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #contact-box {
+    position: relative;
+    bottom: 200px !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #contact {
+    height: 1000px !important;
+  }
+}
+
+/* @media only screen and (max-width: 1180px) {
+  #contact {
+    height: 1600px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #contact {
+    height: 1110px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #contact {
+    height: 1230px !important;
+  }
+
+}
+
+@media only screen and (max-width: 452px) {
+  #contact {
+    height: 1280px !important;
+  }
+} */
 
 @font-face {
     font-family: "roboto";
-    src: url("Roboto-Regular.ttf" ) format("truetype");
+    src: url("https://zerotex.github.io/mcubedcp/fonts/Roboto-Regular.ttf") format("truetype");
 
 }
 
 
 @font-face {
     font-family: "roboto-black";
-    src: url("Roboto-Black.ttf") format("truetype");
+    src: url("https://zerotex.github.io/mcubedcp/fonts/Roboto-Black.ttf") format("truetype");
 
 }
 
 @font-face {
     font-family: "roboto-bold";
-    src: url("Roboto-Bold.ttf") format("truetype");
+    src: url("https://zerotex.github.io/mcubedcp/fonts/Roboto-Bold.ttf") format("truetype");
 
 }
 
@@ -54,11 +113,9 @@ html, body {
 }
 
 
-
-
 #contact {
 
-height: 1000px;
+height: 1375px;
 background: linear-gradient(to top left, rgba(57, 146, 219, 0.3) 30%, #fff 70%);
 }
 h2 {
@@ -131,7 +188,7 @@ vertical-align: middle;
 .mail {
 
 
-
+margin-left: 4%;
 padding-right: 20px;
 padding-bottom: 20px;
 }
@@ -231,6 +288,53 @@ height: 50px;
 
 
 
+.form-control {
+  color:#212529;
+  font-family: 'Roboto', sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #36648b;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
 
+.feedback-input:focus { border:2px solid #36648b; }
 
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
 
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#6c829f;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#36648b; }
+
+#contactform {
+  width: 965px;
+}
+
+#right-box {
+  position: relative;
+  top: 259px;
+}
