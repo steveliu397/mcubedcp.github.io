@@ -1,11 +1,13 @@
 <html>
 <head>
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap.nav2.min.css" rel="stylesheet">
-
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Added Bootstrap JS to fix hamburger -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    
     <link href="css/contact.css" rel="stylesheet">
     <link href="css/bootstrap.navbar.css" rel="stylesheet">
     <script href="css/arrow.js"/>
@@ -30,7 +32,7 @@
 <!--</div>--
 
 
-    <--Navigation bar-->
+    <!-- Navigation bar -->
 
 
 <input id="prodId" name="prodId" type="hidden" value="Image via https://ak9.picdn.net/shutterstock/videos/9869909/thumb/1.jpg
@@ -81,12 +83,13 @@ Icon designed by SimpleIcon from @flaticon">
 
     <div class="container announcement">
         <div class="row">
+          <div class="col-xs-1">
+        </div>
             <div class="col-xs-12 col-lg-6">
                 <h2>Contact us to learn more about M<span>&#179;</span> Capital Partners. </h2>
-
             </div>
-        </div>
 
+        </div>
     </div>
 </div>
 
@@ -94,179 +97,81 @@ Icon designed by SimpleIcon from @flaticon">
     <a href="#contact"><span></span><span></span><span></span></a>
 </section>
 
-
-
-<div id="contact">
-
-    <div id = "inner-box">
-
-    <div class="container announcement">
-
-
-        <div class="col-xs-1">
-
-        </div>
-
-
-
-
-
-        <div class="row">
-            <div class="col-xs-11">
-                <p class = "subtitle"> Get in touch with us </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="container announcement">
-
-
-
-
+<div class="container-fluid" id="contact">
+  <div class="row" id="contact-box">
+    <div class="container">
+      <div class="col-lg-6 col-md-6 row" id="contact-left">
+          <div class="container-fluid" id="left-box">
             <div class="row">
-
-
-
-                <div class="col-xs-1">
-
-                </div>
-
-
-
-
-
-
-
-
-
-                <div class="col-xs-1 mail">
-
-
-
-
-                    <a href= "mailto: neal.doshi@m3capital-partners.com?subject=Website Inquiry">
-                        <img border="0" src="images/close-envelope.png" width="50" height="50" padding-right = "50px">
-
-
-
-
-
-
-
-
-                    </a>
-
-
-
-                </div>
-
-
-
-
-
-
-                <div class="col-xs-1">
-
-
-
-
-                    <a href= "https://www.linkedin.com/company/m-cubed-capital-partners/about/">
-                        <img border="0" src="images/linkedin-logo.png" width="50" height="50">
-
-                    </a>
-
-
-                </div>
-
+              <div class="col-xs-11">
+                <p class = "subtitle"> Get in touch with us </p>
+              </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-            <div class="container announcement">
-
-
-
-
-
-
-
-
+          
+          <div class="container-fluid">
+            <div class="row">
+              <div class="mail">
+                <a href= "mailto: neal.doshi@m3capital-partners.com?subject=Website Inquiry">
+                  <img border="0" src="images/close-envelope.png" width="50" height="50" padding-right = "50px">
+                </a>
+              </div>
+              <div class="col-xs-1">
+                <a href= "https://www.linkedin.com/company/m-cubed-capital-partners/about/">
+                  <img border="0" src="images/linkedin-logo.png" width="50" height="50">
+                </a>
+              </div>
+            </div>
+              <div class="container-fluid">
                 <div class="row">
-
-
-                    <div class="col-xs-1">
-
-                    </div>
-
-                    <div class="col-xs-10">
-
-                <p class = "h"> <span>Email:</span> neal.doshi@m3capital-partners.com</p>
-                <p class = "h"> <span>Phone:</span> (248) 247-3045 </p>
-
-                <p class = "headquarters"> <b> Headquarters:</b> <p>
-                <p class = "info"> 5755 New King Drive, Suite 210 </p>
-                <p class = "info"> Troy, MI 48098 </p>
-
-                    </div>
-
-
-
-
-
-
+                  <div class="col-xs-10">
+                    <p class = "h"> <span>Email:</span> neal.doshi@m3capital-partners.com</p>
+                    <p class = "h"> <span>Phone:</span> (248) 247-3045 </p>
+                    <p class = "headquarters"> <b> Headquarters:</b> <p>
+                    <p class = "info"> 5755 New King Drive, Suite 210 </p>
+                    <p class = "info"> Troy, MI 48098 </p>
+                  </div>
                 </div>
-
-
+              </div>
             </div>
-
-
+          </div>
+          </div>
+          <div class="col-md-6 col-lg-6 row" id="contact-right">
+        
+            <div class="container-fluid" id="right-box">
+              <form id="contactform" action="//formspree.io/neal.doshi@m3capital-partners.com" method="POST">
+                <div class="col-sm-7 slideanim">
+                  <div class="row">
+                    <div class="col-sm-6 form-group">
+                      <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                      <input class="form-control" id="email" name="_replyto" placeholder="Email" type="email" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                      <input class="form-control" id="company" name="company" placeholder="Company" type="text">  
+                    </div>
+                    <div class="col-sm-6 form-group">
+                      <input class="form-control" id="tel" name="phone" placeholder="Phone" type="tel">  
+                    </div> 
+                  </div>   
+                <textarea class="form-control" id="comments" name="message" placeholder="Message" rows="5"></textarea><br>
+                  <div class="row">
+                    <div class="col-sm-12 form-group">
+                      <button class="btn btn-default pull-right" type="submit">Send</button>
+                    </div>
+                  </div>
+                </div>
+                <input type="hidden" name="_next" value="//peek.solutions/confirmation.html" />
+                <input type="text" name="_gotcha" style="display:none" />   
+              </form>
+          </div>
         </div>
-
+      </div>
     </div>
-
-
-    </div>
-
+  </div>
+  
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 
 </body>
-
-</html>
-
-
-</body>
-
-
-
 </html>
