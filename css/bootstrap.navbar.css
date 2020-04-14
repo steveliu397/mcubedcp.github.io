@@ -18,3 +18,13 @@ body {
 .navbar {
   justify-content: right !important;
 }
+
+@media only screen and (max-width: 1199px) {
+  li.nav-item {
+    max-width: 133px !important;
+  }
+}
+
+li.nav-item {
+  max-width: 163px;
+}
