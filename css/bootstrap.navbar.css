@@ -19,12 +19,27 @@ body {
   justify-content: right !important;
 }
 
-@media only screen and (max-width: 1199px) {
-  li.nav-item {
-    max-width: 133px !important;
-  }
+ul {
+  max-width: 1000px !important;
+  width: 100%;
 }
 
+@media only screen and (max-width: 1199px) {
+  ul {
+    max-width: 700px !important;
+  }
+}
+/* 
 li.nav-item {
   max-width: 163px;
+} */
+
+li.nav-box {
+  width: 163px;
+} 
+@media only screen and (min-width: 992px) {
+  .invest-box {
+    text-align: center;
+    float: left;
+  }
 }
