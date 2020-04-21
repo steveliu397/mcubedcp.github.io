@@ -43,3 +43,10 @@ li.nav-box {
     float: left;
   }
 }
+/* #navbarsExample09.navbar-collapse.collapse {
+  display: flex !important;
+} */
+/* 
+.collapse:not(.show) {
+  display: none;
+} */
