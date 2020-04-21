@@ -368,10 +368,12 @@ height: 50px;
   position: relative;
 }
 
-.brand-box:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+@media only screen and (min-width: 576px) {
+  .brand-box:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }  
 }
 
 .outer-block {
