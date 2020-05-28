@@ -3,6 +3,11 @@ html, body {
   margin: 0px;
 
 }
+.intro-p {
+  font-size: 16px;
+  font-family: roboto;
+  padding-top: 5em;
+}
 
 @font-face {
     font-family: "roboto";
