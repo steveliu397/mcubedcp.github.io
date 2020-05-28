@@ -1,0 +1,35 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="css/bootstrap.navbar.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.nav2.min.css" rel="stylesheet">
+
+     <!-- Added Bootstrap JS to fix hamburger -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <link href="css/investment.css" rel="stylesheet">
+    <script href="css/arrow.js"/>
+
+</head>
+<body>
+
+
+
+<script>
+<!--$(function(){-->
+<!--  $("#nav-placeholder").load("./nav.html");-->
+<!--});-->
+</script>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<!--<div class="jumbotron">-->
+<!--  <div class="container">-->
+<!--    <h1>Hello, world!</h1>-->
+<!--    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>-->
+<!--    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>-->
+<!--  </div>-->
+<!--</div>--
+
+
+
