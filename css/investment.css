@@ -12,7 +12,7 @@ h1 {
 .intro-p {
   font-size: 16px;
   font-family: roboto;
-  padding-top: 5em;
+  padding-top: 0.5em;
 }
 
 @font-face {
